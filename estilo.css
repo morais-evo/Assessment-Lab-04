@@ -16,6 +16,21 @@ h1 {
     margin: auto;
 }
 
+article{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 100px;
+}
+
+aside{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: baseline;
+}
+
 section{
     display: flex;
     flex-direction: column;
